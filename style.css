@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #FF69B4;
 }
 
 h1 {
@@ -21,15 +21,42 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #999;
+    border: 5px solid #000000;
 }
 
 th, td {
-    padding: 10px;
+    padding: 20px;
     text-align: left;
 }
 
-/* Student B zal hier extra stijlen toevoegen voor de ongeordende lijst */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    padding: 8px;
+    float: left;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px, 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkblue;
+}
 
 ul {
     border: #000;
