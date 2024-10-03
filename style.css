@@ -57,3 +57,12 @@ li a {
 li a:hover {
     background-color: darkblue;
 }
+
+ul {
+    border: #000;
+    background-color: #333;
+}
+
+p {
+    text-align: center;
+}
